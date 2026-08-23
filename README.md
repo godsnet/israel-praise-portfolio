@@ -4,12 +4,11 @@ A responsive static portfolio for Israel Praise, focused on technical writing fo
 
 ## Files
 
-- `index.html` — semantic portfolio page and content.
+- `index.html` — semantic portfolio page and content, served at `https://godsnet.github.io/israel-praise-portfolio/`.
 - `styles.css` — responsive visual system and layout.
-- `CNAME` — GitHub Pages custom domain configuration for `israelpraise.dev`.
 
 ## GitHub Pages
 
-The site is designed to publish from the `main` branch root. In the repository settings, choose **Pages**, set the source to **Deploy from a branch**, select `main` and `/ (root)`, and save. The domain registrar must also point the apex domain to GitHub Pages and set `www` as a CNAME to `godsnet.github.io`.
+The site is deployed automatically from the `main` branch through GitHub Actions and is available at `https://godsnet.github.io/israel-praise-portfolio/`. No custom-domain DNS configuration is required.
 
 The contact CTA uses a direct email link so it works without a third-party form endpoint. Update the email address in `index.html` if the preferred contact address changes.
